@@ -21,7 +21,7 @@ public class GrepTest {
         String content = file.toString();
         assertEquals(expected, content);
 }
-/*Тест создан наподобии в тестами KotlinAsFirst2021 в Task 7
+/*Тест создан наподобие в тестами KotlinAsFirst2021 в Task 7
   В тестах используется литерал "\r" в связи с тем, что строки в текстовом файле заканчиваются с
   помощью CR(возврат к началу строки)
 */
