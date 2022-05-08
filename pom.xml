@@ -33,7 +33,6 @@
     </dependencies>
     <build>
         <sourceDirectory>src</sourceDirectory>
-        <testSourceDirectory>test</testSourceDirectory>
         <resources>
             <resource>
                 <directory>resources</directory>
@@ -41,12 +40,8 @@
         </resources>
         <plugins>
             <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
             </plugin>
             <plugin>
