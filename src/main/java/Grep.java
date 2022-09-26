@@ -29,6 +29,7 @@ public record Grep(boolean ignoring, boolean regex, boolean inversion) {
         }
         System.setOut(consoleStream);
     }
+
     public String ignoreCase(String text) throws IOException {
         if (ignoring) {
             return text.toLowerCase();
