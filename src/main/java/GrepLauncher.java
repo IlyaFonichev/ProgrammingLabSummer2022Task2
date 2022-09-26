@@ -29,7 +29,6 @@ public class GrepLauncher {
 
     private void launch(String[] args) {
         CmdLineParser parser = new CmdLineParser(this);
-
         try {
             parser.parseArgument(args);
         } catch (CmdLineException e) {
